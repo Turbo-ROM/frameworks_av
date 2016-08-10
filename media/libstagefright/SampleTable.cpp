@@ -355,6 +355,7 @@ status_t SampleTable::setTimeToSampleParams(
         //    table.
         // 3) We hope that the table size does not exceed UINT32_MAX.
         ALOGE("  Error: Time-to-sample table size too large.");
+
         return ERROR_OUT_OF_RANGE;
     }
 
